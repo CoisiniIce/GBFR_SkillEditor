@@ -1,0 +1,92 @@
+# ============================================================================
+#  GBFR SkillEditor — .gitignore
+#  Generated build artifacts, IDE files, and personal config to exclude from
+#  the public repository.
+# ============================================================================
+
+
+# --- Build artifacts (C++ / CMake) -----------------------------------------
+
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+*.lib
+*.core
+*~
+*.autosave
+*.orig
+*.rej
+*_pch.h.cpp
+*_resource.rc
+*.debug
+*.res
+*.rc
+*.qm
+Makefile*
+*.prl
+*.app
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+/.qmake.cache
+/.qmake.stash
+
+# --- Build output directories -----------------------------------------------
+
+/build*/
+dist/
+
+# --- Python (if any helper scripts) ----------------------------------------
+
+__pycache__/
+*.pyc
+
+# --- IDE / Editor files -----------------------------------------------------
+
+# Qt Creator
+*.pro.user*
+*.qbs.user*
+CMakeLists.txt.user*
+.qtcreator/
+
+# Visual Studio
+*.sln
+*.suo
+*.vcxproj
+*vcxproj.*
+*.ncb
+*.sdf
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
+*.opensdf
+
+# MinGW
+*.Debug
+*.Release
+
+# Vim
+.*.swp
+
+# XEmacs
+*.flc
+
+# --- Personal / local config ------------------------------------------------
+
+.claude/
+
+# --- OS junk files ----------------------------------------------------------
+
+.DS_Store
+.directory
+Thumbs.db
+.#*
+*.*#
+core
+!core/
+tags
